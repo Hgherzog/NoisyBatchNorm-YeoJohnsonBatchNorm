@@ -1,1 +1,4 @@
-To be updated
+In this Project, I designed two different alternatives to the batch normalization layer focused on improving the test accuracy.
+All the Colab Code has been separated modularly for easy reuse
+TLDR: I built a normalization layer that adds additional regularization noise which improves the test error on residual netowrks 
+and a normalization layer that standardizes higher order moments using yeo-johnson transform
